@@ -1,0 +1,69 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <welcome-file-list>
+        <welcome-file>about.jsp</welcome-file>
+    </welcome-file-list>
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>adminServlet</servlet-name>
+        <servlet-class>com.fruit.servlet.AdminServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>userListServlet</servlet-name>
+        <servlet-class>com.fruit.servlet.UserListServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adminListServlet</servlet-name>
+        <servlet-class>com.fruit.servlet.AdminListServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>shopListServlet</servlet-name>
+        <servlet-class>com.fruit.servlet.ShopListServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>messageListServlet</servlet-name>
+        <servlet-class>com.fruit.servlet.messageListServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cartListServlet</servlet-name>
+        <servlet-class>com.fruit.servlet.CartListServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>orderListServlet</servlet-name>
+        <servlet-class>com.fruit.servlet.OrderListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminServlet</servlet-name>
+        <url-pattern>/AdminServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>userListServlet</servlet-name>
+        <url-pattern>/UserListServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>adminListServlet</servlet-name>
+        <url-pattern>/AdminListServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>shopListServlet</servlet-name>
+        <url-pattern>/ShopListServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>messageListServlet</servlet-name>
+        <url-pattern>/MessageListServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cartListServlet</servlet-name>
+        <url-pattern>/CartListServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>orderListServlet</servlet-name>
+        <url-pattern>/OrderListServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
